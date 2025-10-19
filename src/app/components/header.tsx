@@ -83,7 +83,7 @@ export default function Header({ locale }: HeaderProps) {
           </div>
 
         
-          <div className="hidden md:block ml-4 lg:ml-6">
+          <div className=" ml-4 lg:ml-6">
             <LanguageSwitcher currentLang={locale} />
           </div>
 
